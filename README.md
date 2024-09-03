@@ -1,2 +1,3 @@
 # discprinter
-adjust extensions as needed.
+todo add extension args
+todo add extension config
