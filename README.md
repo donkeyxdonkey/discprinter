@@ -1,7 +1,7 @@
 # discprinter
 ARGUMENTS: --help --ext
 
---ext [ext-name]+{DELIMITER}[pipe] to add extensions
+--ext [ext-name]~[pipe] to add extensions
 --limit set minimum file size in bytes
 
 
