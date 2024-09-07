@@ -91,7 +91,7 @@ internal class PrintDrive
                 {
                     if (type == ARGS.help)
                     {
-                        Console.WriteLine($"ARGUMENTS: --help --ext{Environment.NewLine}        --ext [ext-name]+{DELIMITER}[pipe] to add extensions{Environment.NewLine}        --limit set minimum file size in bytes{Environment.NewLine}{Environment.NewLine}If no arguments provided, set extensions in config.yaml");
+                        Console.WriteLine($"ARGUMENTS: --help --ext --limit{Environment.NewLine}        --ext [ext-name]+{DELIMITER}[pipe] to add extensions{Environment.NewLine}        --limit set minimum file size in bytes{Environment.NewLine}{Environment.NewLine}If no arguments provided, set extensions in config.yaml");
                         Console.ReadLine();
                         System.Environment.Exit(1);
                     }
